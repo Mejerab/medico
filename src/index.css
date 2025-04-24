@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+@plugin 'tailwind-scrollbar';
+
+button {
+    cursor: pointer;
+}
+
+.font {
+    font-family: "Archivo", sans-serif;
+}
+
+.green {
+    color: #2CA784;
+}
+
+.black {
+    color: #020F33;
+}
+
+.black2 {
+    color: #0F313A;
+}
+
+.prime {
+    color: #6D758E
+}
+
+.blue {
+    color: #3D68F5
+}
+
+.tra {
+    transition: all .5s ease-in-out !important;
+}
+
+.strokee {
+    -webkit-text-stroke: 2px #020F3399;
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #3D68F5;
+    transition: all .7s ease-in-out;
+    z-index: 1;
+}
+
+.button:hover::after {
+    width: 100%;
+}
+
+.button:hover svg {
+    color: #3D68F5;
+    background: #fff;
+    transition: all .2s ease-out;
+    transition-delay: .3s;
+}
+
+.button2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #3D68F5;
+    transition: all .7s ease-in-out;
+    z-index: 1;
+}
+
+.button2:hover::after {
+    width: 0%;
+}
+
+.button2:hover svg {
+    color: #fff;
+    background: #3D68F5;
+    transition: all .2s ease-out;
+    transition-delay: .1s;
+}
+
+.button3::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #020F33;
+    transition: all .7s ease-in-out;
+    z-index: 1;
+}
+
+.button3:hover::after {
+    width: 100%;
+}
+
+.button3:hover svg {
+    color: #020F33;
+    background: #fff;
+    transition: all .2s ease-out;
+    transition-delay: .1s;
+}
+
+.button-green::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #2CA784;
+    transition: all .7s ease-in-out;
+    z-index: 1;
+}
+
+.button-green:hover::after {
+    width: 0%;
+}
+
+.button-green:hover svg {
+    color: #fff;
+    background: #2CA784;
+    transition: all .2s ease-out;
+    transition-delay: .2s;
+}
+
+.button-green2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: #2CA784;
+    transition: all .7s ease-in-out;
+    z-index: 1;
+}
+
+.button-green2:hover::after {
+    width: 100%;
+}
+
+.button-green2:hover svg {
+    color: #2CA784;
+    background: #fff;
+    transition: all .2s ease-out;
+    transition-delay: .2s;
+}
+
+/* Pagination */
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    z-index: 110 !important;
+    margin-bottom: 25px;
+}
+
+.swiper-pagination-bullet {
+    background: #FFFFFF99 !important;
+    margin: 0 5px !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff !important;
+    position: relative;
+}
+
+.swiper-pagination-bullet-active::after {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 18px !important;
+    height: 18px !important;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+@media (max-width: 1320px) {
+    .swiper-pagination-bullet-active {
+        width: 7.5px !important;
+        height: 7.5px !important;
+    }
+
+    .swiper-pagination-bullet-active::after {
+        top: -4px;
+        left: -4px;
+        width: 15.5px !important;
+        height: 15.5px !important;
+    }
+}
+
+.swiper-scrollbar {
+    position: absolute !important;
+    bottom: 35px !important;
+    left: 50% !important;
+    transform: translateX(-50%);
+    background-color: #E1EBE8 !important;
+    border-radius: 9999px !important;
+    height: 6px !important;
+    margin: auto !important;
+    width: 50% !important;
+}
+
+.swiper-scrollbar-drag {
+    background-color: #2CA784 !important;
+    border-radius: 9999px !important;
+    width: 30% !important;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+    opacity: 0 !important;
+    cursor: pointer;
+}
+.confirmButton{
+    background: rgba(0, 0, 0, 0.2);
+}
+@keyframes expandd {
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+.expand{
+    animation: expandd 1s ease-out forwards;
+}
