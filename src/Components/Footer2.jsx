@@ -4,7 +4,7 @@ import { IoCalendarClearOutline } from "react-icons/io5";
 import { LiaComments } from "react-icons/lia";
 import { MdOutlineConnectWithoutContact } from "react-icons/md";
 import { SlClock } from "react-icons/sl";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import Swal from "sweetalert2";
 
 const Footer2 = () => {

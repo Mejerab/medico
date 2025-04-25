@@ -24,7 +24,7 @@ const About = () => {
                         <li className="text-[16px] font-medium black flex gap-x-2 items-center"><FaCheckDouble className="blue text-lg" /> 24/7 Patient Support</li>
                     </ul>
                 </div>
-                <div className="flex items-center gap-x-10">
+                <div className="flex lg:flex-row flex-col items-center gap-x-10">
                     <button className="btn button2 relative overflow-hidden w-[192px] h-[56px] rounded-[100px] border border-[#3D68F5] bg-white hover:text-[#020F33] text-white tra"><span className="flex gap-x-2 z-50">More About us <HiArrowNarrowRight className="p-0.5 ml-1 text-[#3D68F5] rounded-full bg-white text-xl flex items-center justify-center" /></span></button>
                     <div className="flex items-center gap-x-4">
                         <div className="border border-[#EAECF0] rounded-full flex justify-center items-center w-[64px] h-[64px]">

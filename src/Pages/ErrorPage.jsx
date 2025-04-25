@@ -2,7 +2,7 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import Footer1 from "../Components/Footer1";
 import Navbar1 from "../Components/Navbar1";
 import BannerHook from "../hook/BannerHook";
-import { Link, useRouteError } from "react-router-dom";
+import { Link, useRouteError } from "react-router";
 
 const ErrorPage = () => {
     const error = useRouteError();

@@ -8,8 +8,8 @@ import { Link } from "react-router";
 
 const Navbar1 = () => {
     const links = <>
-    <li className="tra relative group">Home
-        <ul className="absolute bg-white w-32 p-7 space-y-3 rounded-xl left-0 top-24 tra group-hover:top-8 opacity-0 invisible group-hover:opacity-100 group-hover:visible z-[100] border border-[#67676799]">
+    <li className="tra relative group cursor-pointer">Home
+        <ul className="absolute bg-white w-32 p-7 space-y-3 rounded-xl left-0 top-24 tra group-focus:top-8 lg:group-hover:top-8 opacity-0 invisible group-focus:opacity-100 lg:group-hover:opacity-100 group-focus:visible lg:group-hover:visible z-[100] border border-[#67676799]">
             <li className="hover:text-[#3D68F5] tra"><Link to='/'>Home1</Link></li>
             <li className="hover:text-[#3D68F5] tra"><Link to='/home2'>Home2</Link></li>
         </ul>
@@ -68,7 +68,7 @@ const Navbar1 = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <button className="btn lg:block hidden button relative overflow-hidden w-[183px] h-[56px] rounded-[100px] border border-[#3D68F5] bg-white hover:text-white tra"><span className="flex gap-x-2 z-50">Emergency <HiArrowNarrowRight className="p-0.5 ml-1 text-white rounded-full bg-[#3D68F5] text-xl flex items-center justify-center" /></span></button>
+                    <button className="btn lg:flex hidden button relative overflow-hidden w-[183px] h-[56px] rounded-[100px] border border-[#3D68F5] bg-white hover:text-white tra"><span className="flex gap-x-2 z-50">Emergency <HiArrowNarrowRight className="p-0.5 ml-1 text-white rounded-full bg-[#3D68F5] text-xl flex items-center justify-center" /></span></button>
                 </div>
             </div>
         </div>

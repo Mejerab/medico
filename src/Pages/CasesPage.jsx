@@ -2,7 +2,7 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 import BannerHook from "../hook/BannerHook";
 import PointHook from "../hook/PointHook";
 import NewsLetter from "./Home1/NewsLetter";
-import { Link, useLocation, useNavigate } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router";
 
 const CasesPage = () => {
     const location = useLocation();

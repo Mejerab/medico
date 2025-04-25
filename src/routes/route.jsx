@@ -1,4 +1,3 @@
-import { createBrowserRouter } from "react-router";
 import Layout from "../Layout/Layout";
 import Home1 from "../Pages/Home1/Home1";
 import Home2 from "../Pages/Home2/Home2";
@@ -11,6 +10,7 @@ import BlogsPage from "../Pages/BlogsPage";
 import SingleBlog from "../Pages/SingleBlog";
 import Contacts from "../Pages/Contacts";
 import ErrorPage from "../Pages/ErrorPage";
+import { createBrowserRouter } from "react-router";
 
 const router = createBrowserRouter([
     {

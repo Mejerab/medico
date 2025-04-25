@@ -12,7 +12,7 @@ import 'swiper/css/navigation';
 
 // import required modules
 import { Navigation, Autoplay } from 'swiper/modules';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import NewsLetter from './Home1/NewsLetter';
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { IoCalendarClearOutline } from "react-icons/io5";

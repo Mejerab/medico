@@ -1,6 +1,18 @@
-# React + Vite
+# Medico
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Link: https://medico-v9p4.onrender.com
 
-Currently, two official plugins are available:
+Github Link: https://github.com/Mejerab/medico
+
+# Technologies Used
+1. Tailwind CSS
+2. Daisy UI
+3. Material UI
+4. Sweet Alert3
+5. React Rotuer
+6. Swiper
+7. React Icons 
+8. React Fast Marquee
+9. Pegion Maps
+9. Aos
 

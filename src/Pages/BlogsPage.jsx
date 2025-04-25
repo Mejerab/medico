@@ -1,4 +1,4 @@
-import { Link, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router";
 import BannerHook from "../hook/BannerHook";
 import Articles from "./Home1/Articles";
 import NewsLetter from "./Home1/NewsLetter";

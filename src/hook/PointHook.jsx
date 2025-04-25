@@ -8,7 +8,7 @@ const PointHook = ({ head, text, center, white, green, green_white, white2 }) =>
                 <MdOutlineMedicalServices className="text-lg -mt-1" />
                 <h4 className="uppercase font-semibold text-[14px]">{head}</h4>
             </div>
-            <h3 className={`font-semibold text-[48px] leading-[115%] ${white?'text-white':green?'text-[#203A42]':green_white?'text-white':white2?'text-white':'black'} ${center&&'text-center'}`}>{text}</h3>
+            <h3 className={`font-semibold text-[35px] lg:text-[48px] leading-[115%] ${white?'text-white':green?'text-[#203A42]':green_white?'text-white':white2?'text-white':'black'} ${center&&'text-center'}`}>{text}</h3>
         </div>
     );
 };

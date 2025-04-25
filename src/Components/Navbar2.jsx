@@ -3,7 +3,12 @@ import { Link } from "react-router";
 
 const Navbar2 = () => {
     const links = <>
-        <li className="hover:text-[#2CA784] tra"><Link to='/'>Home</Link></li>
+        <li className="group relative cursor-pointer tra">Home
+            <ul className="absolute bg-white w-32 p-7 space-y-3 rounded-xl left-0 top-24 tra group-focus:top-8 lg:group-hover:top-8 opacity-0 invisible group-focus:opacity-100 lg:group-hover:opacity-100 group-focus:visible lg:group-hover:visible z-[100] border border-[#67676799]">
+                <li className="hover:text-[#2CA784] tra"><Link to='/'>Home1</Link></li>
+                <li className="hover:text-[#2CA784] tra"><Link to='/home2'>Home2</Link></li>
+            </ul>
+        </li>
         <li className="hover:text-[#2CA784] tra"><Link to='/about-us'>About Us</Link></li>
         <li className="hover:text-[#2CA784] tra"><Link to='/services'>Services</Link></li>
         <li className="hover:text-[#2CA784] tra"><Link to='/priority'>Priority</Link></li>
@@ -22,7 +27,7 @@ const Navbar2 = () => {
                         <ul
                             tabIndex={0}
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                           {links}
+                            {links}
                         </ul>
                     </div>
                     <Link to='/' className="btn btn-ghost text-xl hover:bg-transparent border-0 shadow-none"><img src="https://i.imgur.com/Zjj7meK.png" alt="" /></Link>

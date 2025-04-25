@@ -3,7 +3,7 @@ import Navbar2 from "../../Components/Navbar2";
 import { FiPhoneCall } from "react-icons/fi";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { FaFacebookF, FaLinkedin, FaSkype, FaTwitter } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles

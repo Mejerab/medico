@@ -4,6 +4,7 @@ import PointHook from "../hook/PointHook";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Checkbox } from "@mui/material";
 import Swal from "sweetalert2";
+import { Map, Marker } from "pigeon-maps";
 
 const Contacts = () => {
     const [date, setDate] = useState();
@@ -41,10 +42,10 @@ const Contacts = () => {
         }
     }
     return (
-        <div className="space-y-28 mb-28">
+        <div className="space-y-28">
             <BannerHook first={'Speak with'} text1={'our'} text2={'medical'} last={'team'} />
             <div>
-                <div className="lg:w-1/2 mx-auto">
+                <div className="w-full lg:w-1/2 mx-auto">
                     <PointHook head={'Let’s Talk'} text={'We’re Here to Help! Contact Us for Personalized Care'} center />
                 </div>
                 <div className="mt-16 bg-[#F5FAFE] rounded-xl max-w-[1320px] mx-auto px-3 2xl:px-0">
@@ -135,7 +136,7 @@ const Contacts = () => {
                                 <p className="black">Message</p>
                                 <textarea required rows={6} className="textarea w-full placeholder:text-[#6D758E] prime hover:text-[#6D758E] text-base rounded-[6px] border border-[#EAECF0] focus:outline-[#3D68F5]" placeholder="Write your message..."></textarea>
                             </div>
-                            <div className="flex justify-between mt-8">
+                            <div className="flex lg:flex-row flex-row-reverse justify-between mt-8">
                                 <button className="btn button2 relative overflow-hidden w-[183px] h-[56px] rounded-[100px] border border-[#3D68F5] text-white hover:text-[#020F33] hover:bg-white tra"><span className="flex gap-x-2 z-50">Submit Now <HiArrowNarrowRight className="p-0.5 ml-1 bg-white rounded-full text-[#3D68F5] text-xl flex items-center justify-center" /></span></button>
                                 <div className="flex items-center">
                                     <Checkbox sx={{
@@ -149,6 +150,10 @@ const Contacts = () => {
                         </form>
                     </div>
                 </div>
+            </div>
+            <div className="-mb-2">
+                <Map height={600} defaultCenter={[40.7128, -74.0060]} defaultZoom={11}>
+                </Map>
             </div>
         </div>
     );

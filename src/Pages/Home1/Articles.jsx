@@ -4,7 +4,7 @@ import { IoCalendarClearOutline } from "react-icons/io5";
 import { LiaComments } from "react-icons/lia";
 import PropTypes from 'prop-types';
 import NewsLetter from "./NewsLetter";
-import { Link } from "react-router-dom";
+import { Link } from "react-router";
 
 const Articles = ({ blog }) => {
     

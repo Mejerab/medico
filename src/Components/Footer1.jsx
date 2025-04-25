@@ -18,12 +18,12 @@ const Footer1 = () => {
                     </div>
                     <ul data-aos='fade-left' data-aos-delay={400} className="text-base lg:mx-auto space-y-5">
                         <h4 className="font-semibold text-[24px]">Company</h4>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span> Home </Link></li>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span>  About Us</Link></li>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span> Customer</Link></li>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span> Service</Link></li>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span>  Collections</Link></li>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span>  Best Seller</Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span> Home </Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span>  About Us</Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span> Customer</Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span> Service</Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span>  Collections</Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span>  Best Seller</Link></li>
                     </ul>
                     <div data-aos='fade-left' data-aos-delay={600} className="text-base lg:ml-auto">
                         <h4 className="font-semibold text-[24px]">Get In Touch</h4>
@@ -36,21 +36,21 @@ const Footer1 = () => {
                     </div>
                     <ul data-aos='fade-left' data-aos-delay={800} className="text-base lg:ml-auto space-y-5">
                         <h4 className="font-semibold text-[24px]">Information</h4>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span>  How It’s Work </Link></li>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span>   Partners </Link></li>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span>  Testimonials</Link></li>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span>  key areas</Link></li>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span>   case Studies</Link></li>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span>   Pricing </Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span>  How It’s Work </Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span>   Partners </Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span>  Testimonials</Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span>  key areas</Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span>   case Studies</Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span>   Pricing </Link></li>
                     </ul>
                     <ul data-aos='fade-left' data-aos-delay={1000} className="text-base lg:ml-auto space-y-5">
                         <h4 className="font-semibold text-[24px]">Quick Links</h4>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span> Careers </Link></li>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span>  Infrastructure</Link></li>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span> Client support</Link></li>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span> Privacy Policy</Link></li>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span>  Terms Of Use</Link></li>
-                        <li className="group hover:text-[#3D68F5] tra hover:-ml-1"><Link><span className="group-hover:opacity-0 tra">-</span>  Sitemap</Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span> Careers </Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span>  Infrastructure</Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span> Client support</Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span> Privacy Policy</Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span>  Terms Of Use</Link></li>
+                        <li className="group hover:text-[#3D68F5] transition-all hover:-ml-1"><Link><span className="group-hover:opacity-0">-</span>  Sitemap</Link></li>
                     </ul>
                 </div>
             </div>
