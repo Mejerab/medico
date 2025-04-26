@@ -5,10 +5,10 @@ const Doctors2 = () => {
     return (
         <div className="bg-[#E1EBE8] py-28">
             <div className="max-w-[1320px] mx-auto px-3 2xl:px-0">
-                <div className="w-3/5 mx-auto">
+                <div className="lg:w-3/5 mx-auto">
                     <PointHook head={'professional doctors'} text={'Highly Skilled Doctors, Committed to Excellence'} green center />
                 </div>
-                <div className="mt-14 flex justify-between items-center">
+                <div className="mt-14 flex lg:flex-row flex-col gap-y-6 justify-between items-center">
                     <div data-aos='fade-left'>
                         <div className="relative group">
                             <img className="w-[303px] h-[390px] rounded-xl bg-white" src="https://i.ibb.co.com/n8PH0PN0/doc.png" alt="" />

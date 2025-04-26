@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { BsArrowRightShort } from "react-icons/bs";
 import { CiLocationOn } from "react-icons/ci";
 import { FaFacebookF, FaLinkedin, FaSkype, FaTwitter } from "react-icons/fa";
@@ -7,19 +8,25 @@ import { IoMailOpenOutline } from "react-icons/io5";
 import { Link } from "react-router";
 
 const Navbar1 = () => {
+    const [show, setShow] = useState(false);
+    useEffect(() => {
+        document.getElementById('it').addEventListener('click', () => {
+            setShow(false);
+        })
+    }, [])
     const links = <>
-    <li className="tra relative group cursor-pointer">Home
-        <ul className="absolute bg-white w-32 p-7 space-y-3 rounded-xl left-0 top-24 tra group-focus:top-8 lg:group-hover:top-8 opacity-0 invisible group-focus:opacity-100 lg:group-hover:opacity-100 group-focus:visible lg:group-hover:visible z-[100] border border-[#67676799]">
-            <li className="hover:text-[#3D68F5] tra"><Link to='/'>Home1</Link></li>
-            <li className="hover:text-[#3D68F5] tra"><Link to='/home2'>Home2</Link></li>
-        </ul>
-    </li>
-    <li className="hover:text-[#3D68F5] tra"><Link to='/about-us'>About Us</Link></li>
-    <li className="hover:text-[#3D68F5] tra"><Link to='/services'>Services</Link></li>
-    <li className="hover:text-[#3D68F5] tra"><Link to='/priority'>Priority</Link></li>
-    <li className="hover:text-[#3D68F5] tra"><Link to='/cases?1'>Cases</Link></li>
-    <li className="hover:text-[#3D68F5] tra"><Link to='/blogs?1'>Blog</Link></li>
-    <li className="hover:text-[#3D68F5] tra"><Link to='/contacts'>Contact</Link></li>
+        <li onClick={() => setShow(true)} onBlur={() => setShow(false)} className="tra relative group cursor-pointer"><a>Home</a>
+            <ul className={`${show ? 'opacity-100 visible !top-8' : 'opacity-0 invisible'} tra absolute bg-white w-32 p-7 space-y-3 rounded-xl left-0 top-24 z-[100] border border-[#67676799]`}>
+                <li className="hover:text-[#3D68F5] tra"><Link to='/'>Home1</Link></li>
+                <li className="hover:text-[#3D68F5] tra"><Link to='/home2'>Home2</Link></li>
+            </ul>
+        </li>
+        <li className="hover:text-[#3D68F5] tra"><Link to='/about-us'>About Us</Link></li>
+        <li className="hover:text-[#3D68F5] tra"><Link to='/services'>Services</Link></li>
+        <li className="hover:text-[#3D68F5] tra"><Link to='/priority'>Priority</Link></li>
+        <li className="hover:text-[#3D68F5] tra"><Link to='/cases?1'>Cases</Link></li>
+        <li className="hover:text-[#3D68F5] tra"><Link to='/blogs?1'>Blog</Link></li>
+        <li className="hover:text-[#3D68F5] tra"><Link to='/contacts'>Contact</Link></li>
     </>;
     return (
         <div className="max-w-[1320px] mx-auto 2xl:px-0 px-3 bg-white relative z-[100]">

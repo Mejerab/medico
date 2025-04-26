@@ -5,7 +5,7 @@ const ChooseUs = () => {
     return (
         <div className="bg-[url(https://i.imgur.com/IRCusQ2.jpeg)] bg-cover bg-center">
             <div className="bg-[#001930fa] w-full">
-                <div className="max-w-[1320px] mx-auto px-3 2xl:px-0 flex justify-between items-center gap-x-32 h-full pt-32 py-28">
+                <div className="max-w-[1320px] mx-auto px-3 2xl:px-0 flex lg:flex-row flex-col gap-y-6 justify-between items-center gap-x-32 h-full pt-32 py-28">
                     <img src="https://i.imgur.com/qAsxKxK.png" alt="" />
                     <div className="space-y-5">
                         <PointHook head={'why choose us?'} text={'Restoring Hope, One Day at a Time'} green_white/>

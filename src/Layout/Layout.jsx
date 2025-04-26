@@ -8,7 +8,7 @@ import { useEffect } from "react";
 
 const Layout = () => {
     const location = useLocation();
-    useEffect(()=>{
+    useEffect(() => {
         AOS.init({
             delay: 100,
             once: true
@@ -16,9 +16,11 @@ const Layout = () => {
     }, [])
     return (
         <div className="font black overflow-hidden" data-theme='light'>
-            {location.pathname!=='/home2'&&<Navbar1 />}
-            <Outlet />
-            {location.pathname==='/home2'?<Footer2 />:<Footer1 />}
+            {location.pathname !== '/home2' && <Navbar1 />}
+            <div id="it">
+                <Outlet />
+            </div>
+            {location.pathname === '/home2' ? <Footer2 /> : <Footer1 />}
         </div>
     );
 };

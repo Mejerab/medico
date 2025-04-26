@@ -15,9 +15,6 @@ import { Navigation } from 'swiper/modules';
 import { GiBrain } from "react-icons/gi";
 
 const Lab = () => {
-    window.innerWidth<900?console.log('no'):console.log('yesss')
-    
-    
     return (
         <div className="bg-[url(https://i.imgur.com/cyLQary.jpeg)] bg-cover bg-right">
             <div className="bg-[#F5FAFEe6] py-24">

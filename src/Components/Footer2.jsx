@@ -45,7 +45,7 @@ const Footer2 = () => {
         <div className="bg-[url(https://i.ibb.co.com/60mf7Q8L/bg.jpg)] bg-cover bg-center ">
             <div className="w-full h-full bg-[#001930e6]">
                 <div className="max-w-[1320px] mx-auto px-3 2xl:px-0 pt-24">
-                    <div className="text-white grid grid-cols-9 justify-between">
+                    <div className="text-white grid gap-y-9 lg:grid-cols-9 justify-between">
                         <div data-aos='fade-left' className="font-semibold space-y-8 col-span-2">
                             <h4 className="text-[24px] font-semibold">Get In Touch</h4>
                             <div className="flex gap-x-5">
@@ -80,8 +80,8 @@ const Footer2 = () => {
                                 </div>
                             </div>
                         </div>
-                        <ul data-aos='fade-left' data-aos-delay={400} className="ml-auto space-y-[23px] col-span-2">
-                            <h4 className="text-[24px] font-semibold mb-9">All Departments:</h4>
+                        <ul data-aos='fade-left' data-aos-delay={400} className="lg:ml-auto space-y-[23px] col-span-2">
+                            <h4 className="text-[24px] font-semibold mb-6">All Departments:</h4>
                             <li><Link className="hover:text-[#2CA784] transition-all group hover:-ml-1"><span className="group-hover:opacity-0 opacity-100">-</span>  Cardiology</Link></li>
                             <li><Link className="hover:text-[#2CA784] transition-all group hover:-ml-1"><span className="group-hover:opacity-0 opacity-100">-</span>  Neurology</Link></li>
                             <li><Link className="hover:text-[#2CA784] transition-all group hover:-ml-1"><span className="group-hover:opacity-0 opacity-100">-</span>  Orthopedics</Link></li>
@@ -91,8 +91,8 @@ const Footer2 = () => {
                             <li><Link className="hover:text-[#2CA784] transition-all group hover:-ml-1"><span className="group-hover:opacity-0 opacity-100">-</span>  Oncology</Link></li>
                             <li><Link className="hover:text-[#2CA784] transition-all group hover:-ml-1"><span className="group-hover:opacity-0 opacity-100">-</span>  Endocrinology</Link></li>
                         </ul>
-                        <ul data-aos='fade-left' data-aos-delay={600} className="mx-auto space-y-[23px] col-span-2">
-                            <h4 className="text-[24px] font-semibold mb-9">Quick links:</h4>
+                        <ul data-aos='fade-left' data-aos-delay={600} className="lg:mx-auto space-y-[23px] col-span-2">
+                            <h4 className="text-[24px] font-semibold mb-6">Quick links:</h4>
                             <li><Link className="hover:text-[#2CA784] transition-all group hover:-ml-1"><span className="group-hover:opacity-0 opacity-100">-</span>  Careers</Link></li>
                             <li><Link className="hover:text-[#2CA784] transition-all group hover:-ml-1"><span className="group-hover:opacity-0 opacity-100">-</span>  Infrastructure</Link></li>
                             <li><Link className="hover:text-[#2CA784] transition-all group hover:-ml-1"><span className="group-hover:opacity-0 opacity-100">-</span>  Client support</Link></li>
@@ -102,7 +102,7 @@ const Footer2 = () => {
                             <li><Link className="hover:text-[#2CA784] transition-all group hover:-ml-1"><span className="group-hover:opacity-0 opacity-100">-</span>  Partners</Link></li>
                             <li><Link className="hover:text-[#2CA784] transition-all group hover:-ml-1"><span className="group-hover:opacity-0 opacity-100">-</span>  Case Studies</Link></li>
                         </ul>
-                        <div data-aos='fade-left' data-aos-delay={800} className="pl-6 space-y-12 col-span-3">
+                        <div data-aos='fade-left' data-aos-delay={800} className="lg:pl-6 space-y-12 col-span-3">
                             <h4 className="font-semibold text-[24px]">Latest News:</h4>
                             <div className="flex items-start gap-x-5">
                                 <img src="https://i.ibb.co.com/H5KF4SN/Image-2.png" alt="" />
@@ -142,14 +142,14 @@ const Footer2 = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-aos='fade-up' className="bg-[url(https://i.ibb.co.com/VWL7ZW9v/bgbg.jpg)] bg-center bg-cover w-full rounded-xl h-[171px] my-20">
-                        <div className="bg-[#2CA784E6] w-full h-full rounded-xl flex justify-between items-center px-12 text-white">
-                            <h6 className="font-semibold text-[48px]">Subscribe to newsletter</h6>
-                            <form onSubmit={handleSubmit} className="relative w-5/12">
+                    <div data-aos='fade-up' className="bg-[url(https://i.ibb.co.com/VWL7ZW9v/bgbg.jpg)] bg-center bg-cover w-full rounded-xl lg:h-[171px] my-20">
+                        <div className="bg-[#2CA784E6] lg:py-0  py-5 w-full h-full rounded-xl flex lg:flex-row flex-col justify-between items-center px-12 text-white gap-y-6">
+                            <h6 className="font-semibold text-[30px] leading-[40px] lg:text-[48px]">Subscribe to newsletter</h6>
+                            <form onSubmit={handleSubmit} className="relative w-full lg:w-5/12">
                                 <input type="email" required name="email" className="w-full h-[61px] rounded-lg placeholder:text-[#424544] black focus:border-0 focus:outline-0 input pl-6" placeholder="Enter your email" />
                                 <button className="btn w-[43px] h-[43px] rounded-[6px] text-white hover:text-[#001930] hover:bg-white group tra absolute top-2 right-2 bg-[#001930]">
                                     <svg width="15" height="15" viewBox="0 0 15 15" stroke="currentColor" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M7.5 1.5L13.5 7.5M13.5 7.5L7.5 13.5M13.5 7.5L1.5 7.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.5 1.5L13.5 7.5M13.5 7.5L7.5 13.5M13.5 7.5L1.5 7.5" strokeWidth="2" strokeLinecap="round" />
                                     </svg>
                                 </button>
                             </form>

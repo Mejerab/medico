@@ -4,14 +4,14 @@ import PointHook from "../../hook/PointHook";
 const Work = () => {
     return (
         <div className="max-w-[1320px] mx-auto px-3 2xl:px-0">
-            <div className="flex justify-between items-center">
+            <div className="flex lg:flex-row flex-col gap-y-5 justify-between items-center">
                 <PointHook head={'HOW WE WORK?'} text={'Our Patient Care Approach Explained'} green />
-                <div className="ml-80 space-y-3">
+                <div className="lg:ml-80 space-y-3">
                     <p className="text-[#424544] leading-[180%]">Experience comprehensive healthcare at Mediko, where your well-being is our priority.</p>
                     <button className="btn relative overflow-hidden w-[204px] h-[57px] rounded-[100px] border border-[#203A42] bg-[#203A42] text-white hover:text-[#203A42] hover:bg-transparent tra group"><span className="flex gap-x-2 z-50">Get consult now <HiArrowNarrowRight className="p-0.5 ml-1 group-hover:text-white group-hover:bg-[#203A42] tra text-[#203A42] rounded-full bg-[#fff] text-xl flex items-center justify-center" /></span></button>
                 </div>
             </div>
-            <div className="mt-20 text-[24px] flex items-center justify-between">
+            <div className="mt-20 text-[24px] flex lg:flex-row flex-col items-center justify-between">
                 <div className="w-[330px] h-[340px] cursor-pointer bg-[#F3F8F6] hover:bg-[#2CA784] group tra rounded-xl text-center p-10 space-y-5">
                     <div className="border-2 rounded-full mx-auto border-dotted border-[#00193033] w-[86px] h-[86px] flex justify-center items-center">
                         <div className="w-[70px] h-[70px] rounded-full bg-[#001930] mx-auto flex justify-center items-center">

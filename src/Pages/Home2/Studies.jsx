@@ -14,12 +14,12 @@ import { Autoplay } from 'swiper/modules';
 const Studies = () => {
     return (
         <div className="max-w-[1320px] mx-auto px-3 2xl:px-0">
-            <div className="w-6/12 mx-auto">
+            <div className="lg:w-6/12 mx-auto">
                 <PointHook head={'our case studies'} text={'Dive Into Our Some Case Studies and See Real Success Stories!'} green center />
             </div>
             <div className="mt-16">
                 <Swiper
-                    slidesPerView={3}
+                    slidesPerView={window.innerWidth<900?1:3}
                     spaceBetween={20}
                     loop={true}
                     autoplay={{
